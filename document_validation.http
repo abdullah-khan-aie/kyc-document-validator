@@ -1,0 +1,23 @@
+POST localhost:8000/api/v1/validate/document
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "application_id": "10",
+  "residency": "resident",
+  "employment": "salaried"
+}
+###
+
+POST localhost:8000/api/v1/validate/documents
+Content-Type: application/json
+
+{
+  "application_id": "10",
+  "residency": "resident",
+  "employment": "salaried",
+  "customer_name": "John Doe",
+  "mobile_number": "+971500000000",
+  "email": "john.doe@email.com"
+}
+###
