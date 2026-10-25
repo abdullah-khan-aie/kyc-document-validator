@@ -1,0 +1,24 @@
+[project]
+name = "document-validation"
+version = "0.1.0"
+description = "It can verify KYC docs of any nationality."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.9",
+    "azure-ai-documentintelligence>=1.0.0",
+    "azure-core>=1.30",
+    "certifi>=2025.11.12",
+    "fastapi>=0.124.0",
+    "langfuse>=3.10.5,<4",
+    "openai>=2.9.0,<3",
+    "pycountry>=24.6",
+    "pydantic>=2.12.5,<3",
+    "pydantic-extra-types>=2.10.6",
+    "pydantic-settings>=2.12.0",
+    "python-dateutil>=2.9",
+    "rapidfuzz>=3.14.3",
+    "slack-sdk>=3.33",
+    "supabase>=2.0",
+    "uvicorn[standard]>=0.30",
+]
